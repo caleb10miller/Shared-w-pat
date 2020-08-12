@@ -10,5 +10,5 @@ christians = csv.loc[csv['Q29 - Smoked Weed'] == 0]['Q6 - HS GPA'].min()
 if stoners > christians:
     print('Stoners win!')
 else:
-    print('Christians win!')
+    print ('Christians win!')
 #matplotlib.pyplot.show()
